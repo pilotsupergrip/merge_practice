@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--若有需要用到jQuery 要在這之後才能宣告全域變數
+        全域變數儘量若要放在HTML中 則最好放在html head中-->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="playList.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Youtube 心情點唱機</h1>
+    <h2></h2> <!-- 預計擺放播放歌曲名稱 -->
+    <div id="player"></div> <!-- 預計擺放Toutube影片播放器 -->
+    <br>
+    <input id="playButton" type="button" value="Play">
+    <!--此也可以宣告全域變數 但僅用在body中有被載入的才會特別需要在此宣告-->
+</body>
+</html>
