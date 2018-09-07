@@ -1,26 +1,21 @@
 body{
     text-align: center;
 }
-/*
-li{
-    text-align: left;
-}
-*/
 
-h2{
-    color:rosybrown;
+table {
+    width: 40% ;
+    margin: auto ;
 }
 
-table{
-    width: 65%;
-    margin: auto;
-    font-size:1.5em;
+th,td {
+    padding: 10px 0px 10px ;
+    border-bottom: 1px solid black ;
 }
 
-th{
-    border-bottom:  1px solid purple;
+.odd {
+    background-color: white ;
 }
 
-td.even{
-    border:  5px solid rgb(100,50,17);
+.even {
+    background-color: greenyellow;
 }

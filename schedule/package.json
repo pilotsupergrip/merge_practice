@@ -1,5 +1,5 @@
-"eslintConfig":{
-    "globals":{
+"eslintConfig": {
+    "globals": {
         "window": true
     }
 }
